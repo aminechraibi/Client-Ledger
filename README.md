@@ -7,8 +7,8 @@ A modern, offline-first personal ledger and client account manager built nativel
 ## 📱 Application Screenshots
 
 <p align="center">
-  <img src="app/src/main/res/drawable/dashboard_mockup_1780548500189.png" width="350" alt="Financial Dashboard Mockup" style="margin-right: 20px;" />
-  <img src="app/src/main/res/drawable/ledger_profile_mockup_1780548515337.png" width="350" alt="Transaction Ledger Mockup" />
+  <img src="app/src/main/res/drawable/dashboard_screenshot_1780548771640.png" width="350" alt="Financial Dashboard Mockup" style="margin-right: 20px;" />
+  <img src="app/src/main/res/drawable/clients_screenshot_1780548785930.png" width="350" alt="Transaction Ledger Mockup" />
 </p>
 
 ---
