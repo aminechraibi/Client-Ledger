@@ -1,81 +1,45 @@
 # Client Ledger
 
-A modern, offline-first personal ledger and client account manager built natively for Android using Jetpack Compose and Material Design 3. Designed for freelancers, small business owners, and clear-cut accounts management, Client Ledger allows you to visually track and organize outstanding balances with custom transaction trails, status badges, and receipt visualizers.
+A modern, offline-first personal ledger and client account manager built natively for Android using Jetpack Compose and Material Design 3. Designed for freelancers, small business owners, and local shops, **Client Ledger** allows you to visually track, search, and organize outstanding balances with custom transaction records, instant contact actions, and secure local data.
 
 ---
 
-## 🎨 Design Philosophy & UX Highlights
+## 📱 Application Screenshots
 
-Client Ledger leverages a clean, high-contrast, minimalist aesthetic built around intuitive Material 3 design tokens:
-
-*   **Financial Snapshot Cards**: Visual header blocks displaying active financial health—differentiating **Amounts Owed by Me** (positive balance credit) and **Amounts Owed to Me** (negative balance debit) along with aggregate **Net Custody Balance**.
-*   **Intuitive Color Accents**: Balanced color palettes following high-contrast usability guidelines:
-    *   💚 **Emerald Accents** (`#065F46` / `#D1FAE5` bg) for incoming funds, credits, or positive balance items.
-    *   ❤️ **Rose Accents** (`#9F1239` / `#FFE4E6` bg) for outgoing funds, debits, or negative balances.
-*   **Initials Avatar Badges**: Automatic, elegantly rounded client initials badges that scale with responsive window layout formats.
-*   **Attachment Integration**: Quickly view image receipts, invoices, or manual payment proof directly linked to transaction line-items.
+<p align="center">
+  <img src="app/src/main/res/drawable/dashboard_mockup_1780548500189.png" width="350" alt="Financial Dashboard Mockup" style="margin-right: 20px;" />
+  <img src="app/src/main/res/drawable/ledger_profile_mockup_1780548515337.png" width="350" alt="Transaction Ledger Mockup" />
+</p>
 
 ---
 
-## 🚀 Key Functional Modules
+## ✨ Key Benefits & Features
 
-1.  **Financial Dashboard**
-    *   Real-time global asset custody calculation.
-    *   Segmented status metrics demonstrating active client balances at a glance.
-    *   Unified list of recent general ledger actions.
-
-2.  **Client Directory**
-    *   Search and manage client list profiles with quick-action click handlers for Phone calls and Email.
-    *   Real-time balance labels identifying those settled vs. those with active balances.
-
-3.  **Detailed Client Profiles**
-    *   Full individual ledger history of a selected client.
-    *   Interactive add/delete functions for specific financial operations.
-    *   Support for attaching physical receipts with live preview.
-
-4.  **General Ledger Log**
-    *   Aggregated historic view of all client transaction operations.
-    *   Formatted timestamps and structured chronological sorting.
+*   **Financial Summaries at a Glance**: Instantly view your modern slate-themed headers tracking overall outstanding metrics—clearly separating **Amounts Owed by Me** (credits) from **Amounts Owed to Me** (debits).
+*   **Intuitive Visual Indicators**: Uses modern, readable color-coded accents for quick balance scanning:
+    *   💚 **Emerald Details** (`#065F46`) represent settled accounts, income streams, or active store credits.
+    *   ❤️ **Rose Details** (`#9F1239`) represent active balances, due debits, or outgoing transactions.
+*   **Dynamic Avatar initials**: Automatically generates high-contrast avatar badges from client names for modern visual styling.
+*   **Instant Client Contact**: Call or email clients directly from their profile with integrated single-tap action handlers.
+*   **Receipt Attachments**: Link and preview offline visual image documents, bills, or receipt forms directly inside item transaction cards.
 
 ---
 
-## 🛠️ Architecture & Stack
+## 📦 How to Get the App (APK)
 
-*   **Language**: Kotlin
-*   **UI Toolkit**: Jetpack Compose (100% Declarative Layout)
-*   **Design System**: Material Design 3 (M3)
-*   **Local Storage**: Offline-first local data management (designed utilizing Kotlin Coroutines & Flow structures)
-*   **Navigation**: Android Jetpack Navigation Compose with type-safe route serializations
-*   **Build Engine**: Gradle (Kotlin DSL - `.gradle.kts`) with full compilation validation
+Installing **Client Ledger** on your Android device is simple and takes less than a minute.
 
----
+### The Quickest Way (Recommended)
 
-## 📦 How to Get the APK
-
-This repository is optimized for both local development builds and fully automated release builds through GitHub Actions.
-
-### Method 1: Automatically via GitHub Actions (Recommended)
-
-Every time you commit or push code changes to the key branches (`main` or `master`), an automated CI workflow packages the app and makes it available.
-
-1.  Navigate to the **Actions** tab on your GitHub repository.
-2.  Select the **Android APK Auto-Release** workflow in the left sidebar.
-3.  Click the latest workflow run (with a green checkmark).
-4.  Scroll down to the **Artifacts** section at the bottom of the page.
-5.  Download the **`app-ledger-debug`** file, unzip it, and copy the `.apk` package onto your Android device to install!
-
-*(Optional)* You can manually trigger a build by clicking the **Run workflow** dropdown on the Actions tab at any time.
+1.  Open this repository page on your phone or web browser.
+2.  On the right-hand panel, locate and tap on the **Releases** section (or click **v1.0.1**).
+3.  Under the **Assets** list, tap directly on the **`app-debug.apk`** download package.
+4.  Once downloaded, open the file on your Android device to install the app!
 
 ---
 
-### Method 2: Build Locally (Development Console)
+## 🛡️ Privacy & Reliability
 
-If you have JDK 17 installed onto your workstation, you can manually build the APK direct from source:
-
-1.  Open your terminal inside the project root namespace.
-2.  Run the following build command:
-    ```bash
-    gradle assembleDebug --no-daemon
-    ```
-3.  Once the build task terminates successfully, find your compiled binary package under the output destination:
-    `app/build/outputs/apk/debug/app-debug.apk`
+*   **100% Offline-First**: All ledger details, balances, dates, contact details, and receipt previews are stored locally on your device. Your data never leaves your custody.
+*   **High Performance**: Restructures and queries databases smoothly with zero loading delay.
+*   **Material Design 3 (M3)**: Beautiful light/dark system theming supporting all screen sizes, tablets, and foldables.
