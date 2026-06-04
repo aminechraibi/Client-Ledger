@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Ledger Book Base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,24 C28.7,24 26,26.7 26,30 L26,78 C26,81.3 28.7,84 32,84 L76,84 C79.3,84 82,81.3 82,78 L82,30 C82,26.7 79.3,24 76,24 L32,24 Z"/>
+    
+    <!-- Gold Premium Brand Accent Header -->
+    <path
+        android:fillColor="#E0A905"
+        android:pathData="M26,30 L26,42 L82,42 L82,30 C82,26.7 79.3,24 76,24 L32,24 C28.7,24 26,26.7 26,30 Z"/>
+
+    <!-- Dual Ledger Action lines -->
+    <path
+        android:strokeColor="#2E7D32"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M36,50 L72,50" />
+        
+    <path
+        android:strokeColor="#C62828"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M36,60 L60,60" />
+
+    <path
+        android:strokeColor="#2E7D32"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M36,70 L68,70" />
+</vector>

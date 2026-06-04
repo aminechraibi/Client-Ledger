@@ -1,0 +1,6 @@
+{
+  "name": "Client Ledger",
+  "description": "Add, edit, and manage client accounts with full financial operation logging, automated balance tracking, PDF invoices, and CSV reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
