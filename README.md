@@ -43,3 +43,12 @@ Installing **Client Ledger** on your Android device is simple and takes less tha
 *   **100% Offline-First**: All ledger details, balances, dates, contact details, and receipt previews are stored locally on your device. Your data never leaves your custody.
 *   **High Performance**: Restructures and queries databases smoothly with zero loading delay.
 *   **Material Design 3 (M3)**: Beautiful light/dark system theming supporting all screen sizes, tablets, and foldables.
+
+---
+
+## Support
+
+Found this useful? A coffee goes a long way ☕
+
+<a href='https://ko-fi.com/P5P21ZQGK2' target='_blank'><img height='72' style='border:0px;height:72px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
